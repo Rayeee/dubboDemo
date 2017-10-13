@@ -23,12 +23,16 @@
         <property name="ignoreUnresolvablePlaceholders" value="true" />
     </bean>
 
-    <dubbo:application name="user-service" logger="slf4j" />
+    <dubbo:application name="order-service" logger="slf4j" />
 
     <dubbo:registry address="${dubbo.registry}" protocol="zookeeper" />
 
     <dubbo:protocol port="-1" />
 
     <dubbo:consumer timeout="100000000" />
+
+    <dubbo:service interface="me.zgy.order.service.OrderService" ref="orderService" />
+
+    <dubbo:reference interface="me.zgy.user.service.UserService" id="userService" />
 
 </beans>

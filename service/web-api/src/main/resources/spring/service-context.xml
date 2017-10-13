@@ -18,4 +18,8 @@
 
     <dubbo:consumer timeout="100000000" />
 
+    <dubbo:reference id="userService" interface="me.zgy.user.service.UserService" />
+
+    <dubbo:reference id="orderService" interface="me.zgy.order.service.OrderService" />
+
 </beans>
