@@ -1,1 +1,2 @@
-CatFilter=me.zgy.core.filter.CatFilter
+catFilter=me.zgy.core.filter.CatFilter
+appnameAppend=me.zgy.core.filter.AppNameAppendFilter
