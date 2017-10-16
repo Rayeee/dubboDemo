@@ -9,7 +9,6 @@
     <modules>
         <module>core</module>
         <module>service</module>
-        <module>monitor</module>
     </modules>
     <packaging>pom</packaging>
 
