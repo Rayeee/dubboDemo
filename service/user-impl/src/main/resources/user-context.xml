@@ -23,6 +23,10 @@
         <property name="ignoreUnresolvablePlaceholders" value="true" />
     </bean>
 
+    <bean id="monitorConfig" class="com.alibaba.dubbo.config.MonitorConfig">
+        <property name="protocol" value="registry"/>
+    </bean>
+
     <dubbo:application name="user-service" logger="slf4j" />
 
     <dubbo:registry address="${dubbo.registry}" protocol="zookeeper" />

@@ -164,6 +164,7 @@ public class CatFilter implements Filter {
     }
 
     private void createConsumerCross(URL url, Transaction transaction) {
+        Cat.logEvent("妈个比啊", "为啥不行啊！！！！");
         Event crossAppEvent = Cat.newEvent(CatConstants.CONSUMER_CALL_APP, getProviderAppName(url));
         Event crossServerEvent = Cat.newEvent(CatConstants.CONSUMER_CALL_SERVER, url.getHost());
         Event crossPortEvent = Cat.newEvent(CatConstants.CONSUMER_CALL_PORT, url.getPort() + "");
