@@ -16,7 +16,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <cat.version>2.0.0</cat.version>
         <dubbo.version>2.8.4</dubbo.version>
     </properties>
 
