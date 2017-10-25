@@ -7,7 +7,6 @@
     <version>1.0.0</version>
 
     <modules>
-        <module>core</module>
         <module>service</module>
     </modules>
     <packaging>pom</packaging>
@@ -22,10 +21,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.dianping.cat</groupId>
-            <artifactId>cat-core</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>commons-lang</groupId>
@@ -46,13 +41,6 @@
 
     <dependencyManagement>
         <dependencies>
-
-            <dependency>
-                <groupId>com.dianping.cat</groupId>
-                <artifactId>cat-core</artifactId>
-                <version>${cat.version}</version>
-            </dependency>
-
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo</artifactId>

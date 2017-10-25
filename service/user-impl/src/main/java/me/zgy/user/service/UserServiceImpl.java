@@ -1,6 +1,6 @@
 package me.zgy.user.service;
 
-import autovalue.shaded.com.google.common.common.collect.Lists;
+import com.google.common.collect.Lists;
 import me.zgy.user.model.Addr;
 import me.zgy.user.model.User;
 import org.springframework.stereotype.Service;
